@@ -76,3 +76,54 @@ body{
     margin: 10px 0;
 
 }
+
+@media (max-width:768px) {
+
+
+    #search-form{
+        flex-wrap: wrap;
+
+    }
+    .search-input {
+        width: 100%;
+
+    }
+    
+    .search-btn {
+        margin-top: 10px;
+
+    }
+    .city {
+        font-size: 1.6rem;
+    }
+
+
+
+    
+}
+@media (max-width:500px){
+    #search{
+        width: 80%;
+    }
+    .city {
+        font-size: 1.5rem;
+    }
+    .temp {
+        font-size: 1.1rem;
+    }
+    .temp-unit {
+        font-size: 1rem;
+    }
+    .desc {
+        font-size: 1rem;
+    }
+    .humidity {
+        font-size: 1rem;
+    }
+    .wind {
+        font-size: 1rem;
+    }
+}
+
+
+
